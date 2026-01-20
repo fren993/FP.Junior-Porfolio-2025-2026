@@ -1,6 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 55%;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  background-color: #f790b2;
+  color: #f9bed2;
+  background-image: url("Illustration22.png");
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+
+
+
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+.bio-pic{
+  background-image: url("IMG_2732.jpg");
+  background-repeat: no-repeat;
+  background-position: center;  
+  width: 100%;
+  height: 500px;
+}
+h1{
+  color:#733d26;
+}
+.bio-text{
+  text-align: center;
+  color: #f790b2;
+  text-size-adjust:initial;
+  background-color: #975e46;
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+
+  background-color: #f8b0c8;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left img {
+  
+  height: 35%;
+}
+
+.navbar-right {
+
+
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right a {
+  color: #af7f73;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-right a:hover {
+  color: #733d26;
+}
+
+.resource-card {
+  background-color: #af7f73;
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(222, 14, 14, 0.08);
+}
+
+
 /* =========================
    GLOBAL / RESET....
-========================= */
+========================= 
 * {
   box-sizing: border-box;
 }
@@ -23,7 +113,7 @@ body {
 
 /* =========================
    NAVBAR
-========================= */
+========================= 
 .navbar {
 
   background-color: #f8b0c8;
@@ -58,7 +148,7 @@ body {
 
 /* =========================
    PAGE LAYOUT
-========================= */
+========================= 
 .home-card {
   max-width: 1200px;
   margin: 2em auto;
@@ -67,7 +157,7 @@ body {
 
 /* =========================
    CARDS
-========================= */
+========================= 
 .resource-card {
   background-color: #af7f73;
   margin: 2em auto;
@@ -78,7 +168,7 @@ body {
 
 /* =========================
    BIO SECTION
-========================= */
+========================= 
 .bio {
   display: flex;
   flex-direction: column;
@@ -105,8 +195,8 @@ body {
 }
 
 /* =========================
-   PROJECT LAYOUT
-========================= */
+   PROJECT LAYOU
+========================= 
 .project {
   display: flex;
   gap: 1.5em;
@@ -141,7 +231,7 @@ body {
 
 /* =========================
    LINKS / ICONS
-========================= */
+========================= 
 .skill-images {
   display: flex;
   justify-content: center;
@@ -152,7 +242,7 @@ body {
 .picture {
   transition: transform 0.2s ease;
 }
-*/
+
 .picture:hover {
   transform: scale(1.05);
 }
@@ -167,7 +257,7 @@ body {
 
 /* =========================
    FOOTER
-========================= */
+========================= 
 footer {
   text-align: center;
   font-size: 0.85em;
@@ -176,7 +266,7 @@ footer {
 
 /* =========================
    RESPONSIVE
-========================= */
+========================= 
 @media (max-width: 900px) {
   .project {
     flex-direction: column;
@@ -200,3 +290,4 @@ footer {
     justify-content: center;
   }
 }
+*/
