@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 55%;
+  width: 70%;
   margin: auto;
   background: white;
-  padding: 10px;
+  padding: 0;
   background-color: #f790b2;
   color: #f9bed2;
   background-image: url("Illustration22.png");
@@ -13,7 +13,6 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat-x;
-
 
 
   font-family: "Mystery Quest", system-ui;
@@ -30,8 +29,14 @@ body {
   height: 500px;
 }
 h1{
+  width: 70%;
+  height: auto;
   color:#733d26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .bio-text{
   text-align: center;
   color: #f790b2;
@@ -41,38 +46,47 @@ h1{
   padding: 1.5em;
   border-radius: 12px;
 }
-
+iframe{
+  width:100%;
+  height: auto;
+}
 /* =========================
    NAVBAR
 ========================= */
 .navbar {
-
   background-color: #f8b0c8;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .navbar-left img {
-  
-  height: 35%;
+  height: auto;
 }
 
 .navbar-right {
-
-
+  
   list-style: none;
   display: flex;
   gap: 2em;
   margin: 0;
   padding: 0;
+  
 }
 
 .navbar-right a {
   color: #af7f73;
   text-decoration: none;
   font-weight: bold;
+}
+.navbar-right ul{
+  display: block;
+  padding: 0;
+  margin:0;
+  width:90%;
+  height:auto;
 }
 
 .navbar-right a:hover {
