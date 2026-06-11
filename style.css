@@ -72,6 +72,12 @@ extracurricular-list, h3{
 
 }
 
+.text-projects p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* =========================
    NAVBAR
@@ -87,6 +93,7 @@ extracurricular-list, h3{
 
 .navbar-left img {
   height: auto;
+
 }
 
 .navbar-right {
@@ -100,7 +107,7 @@ extracurricular-list, h3{
 }
 
 .navbar-right a {
-  color: #4a3732;
+  color: #674037;
   text-decoration: none;
   font-weight: bold;
   font-size: large;
