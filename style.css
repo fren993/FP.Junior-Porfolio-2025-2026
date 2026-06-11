@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 70%;
+  width: 80%;
   margin: auto;
   background: white;
   padding: 0;
@@ -16,7 +16,6 @@ body {
 
 
   font-family: "Mystery Quest", system-ui;
-  font-weight: 200;
   font-style: normal;
 
 }
@@ -29,7 +28,7 @@ body {
   height: 500px;
 }
 h1{
-  width: 70%;
+  width: 100%;
   height: auto;
   color:#733d26;
   display: flex;
@@ -48,8 +47,32 @@ h1{
 }
 iframe{
   width:100%;
-  height: auto;
+  height: 500px;
+  margin:0;
+  padding: 0;
 }
+
+iframe, h3, p{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+extracurricular-list, h2{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+extracurricular-list, h3{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+
 /* =========================
    NAVBAR
 ========================= */
@@ -77,9 +100,10 @@ iframe{
 }
 
 .navbar-right a {
-  color: #af7f73;
+  color: #4a3732;
   text-decoration: none;
   font-weight: bold;
+  font-size: large;
 }
 .navbar-right ul{
   display: block;
