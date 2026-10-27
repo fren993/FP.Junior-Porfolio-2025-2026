@@ -19,7 +19,15 @@ body {
   font-style: normal;
 
 }
-
+.Links-Index{
+ list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+  display: block;
+  height:auto;
+}
 .bio-pic{
   background-image: url("IMG_2732.jpg");
   background-repeat: no-repeat;
@@ -88,12 +96,13 @@ extracurricular-list, h3{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  width: 100%;
+  overflow-x: auto;
 }
 
 .navbar-left img {
   height: auto;
-
+  width: 90px;
 }
 
 .navbar-right {
@@ -116,7 +125,7 @@ extracurricular-list, h3{
   display: block;
   padding: 0;
   margin:0;
-  width:90%;
+  width:100%;
   height:auto;
 }
 
