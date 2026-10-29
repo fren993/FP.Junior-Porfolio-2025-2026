@@ -6,7 +6,7 @@ body {
   margin: auto;
   padding: 0;
   background-color: #f790b2;
-  color: #f9bed2;
+  color: #f7ef8f;
   background-image: url("Illustration22.png");
   background-size: contain;
   background-attachment: fixed;
@@ -19,14 +19,25 @@ body {
 
 }
 .Links-Index{
- list-style: none;
-  display: flex;
-  gap: 2em;
-  margin: 0;
-  padding: 0;
-  display: block;
-  height:auto;
+  margin:0;
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-items: flex-start;
+  gap: 9em;
 }
+.resource-card{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-desc{
+  padding: 15px;
+  text-align: center;
+}
+
 .bio-pic{
   background-image: url("IMG_2732.jpg");
   background-repeat: no-repeat;
@@ -34,20 +45,26 @@ body {
   width: 100%;
   height: 500px;
 }
+
 h1{
   width: 100%;
   height: auto;
-  color:#733d26;
+  color:#f7ef8f;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size:50px;
+  border-width: 10px;
+  background-color: #af7f73;
+
+
 }
 
 .bio-text{
   text-align: center;
-  color: #f790b2;
+  color: #f7ef8f;
   text-size-adjust:initial;
-  background-color: #975e46;
+  background-color: #af7f73;
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
@@ -61,8 +78,8 @@ iframe{
 
 iframe, h3, p{
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 
 extracurricular-list, h2{
@@ -104,7 +121,7 @@ extracurricular-list, h3{
   width: 90px;
 }
 
-.navbar-right {
+.navbar-right{
   
   list-style: none;
   display: flex;
@@ -115,12 +132,13 @@ extracurricular-list, h3{
 }
 
 .navbar-right a {
-  color: #674037;
+  color: #785046;
   text-decoration: none;
   font-weight: bold;
-  font-size: large;
+  font-size: 30px;
 }
 .navbar-right ul{
+
   display: block;
   padding: 0;
   margin:0;
@@ -129,7 +147,7 @@ extracurricular-list, h3{
 }
 
 .navbar-right a:hover {
-  color: #733d26;
+  color: #af738c;
 }
 
 .resource-card {
@@ -148,6 +166,16 @@ extracurricular-list, h3{
   box-sizing: border-box;
 }
 
+.especial-resource-card{
+  margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 body {
   margin: 0%;
 
