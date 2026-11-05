@@ -13,18 +13,28 @@ body {
   background-position: center;
   background-repeat: repeat-x;
 
-
+  object-fit: fill;
   font-family: "Mystery Quest", system-ui;
   font-style: normal;
 
 }
 .Links-Index{
   margin:0;
-
+  align-items: center;
   display:flex;
   flex-wrap:wrap;
   justify-items: flex-start;
   gap: 9em;
+}
+
+.certis{
+  display: flex;
+  justify-content: wrap;
+  align-content: center;
+}
+.certis-pic img{
+  width:65%;
+  height:auto;
 }
 .resource-card{
 
@@ -125,10 +135,12 @@ extracurricular-list, h3{
   
   list-style: none;
   display: flex;
-  gap: 2em;
+  gap: 3%;
   margin: 0;
   padding: 0;
-  
+
+    width:100%;
+  height:auto;
 }
 
 .navbar-right a {
@@ -137,14 +149,7 @@ extracurricular-list, h3{
   font-weight: bold;
   font-size: 30px;
 }
-.navbar-right ul{
 
-  display: block;
-  padding: 0;
-  margin:0;
-  width:100%;
-  height:auto;
-}
 
 .navbar-right a:hover {
   color: #af738c;
@@ -152,8 +157,8 @@ extracurricular-list, h3{
 
 .resource-card {
   background-color: #af7f73;
-  margin: 2em auto;
-  padding: 1.5em;
+  margin: 2% auto;
+  padding: 1.5%;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(222, 14, 14, 0.08);
 }
