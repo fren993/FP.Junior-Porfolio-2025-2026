@@ -18,6 +18,9 @@ body {
   font-style: normal;
 
 }
+.extracurricular-list, ol{
+  gap: 2em 1em;
+}
 a{
   color:#f7ef8f;
   text-decoration: none;
@@ -66,8 +69,18 @@ h1{
   font-size:50px;
   border-width: 10px;
   background-color: #af7f73;
+  border-radius: 12px;
 
+    
+}
+h3, h2, h4{
+  display: flex;
+  text-align: center;
+  border-width: auto;
+  background-color: #af7f73;
+  border-radius: 12px;
 
+    width: fit-content;
 }
 
 .bio-text{
@@ -157,7 +170,9 @@ extracurricular-list, h3{
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(222, 14, 14, 0.08);
 
-   display: flex;
+  width: fit-content;
+
+  display: flex;
   justify-content: center;
   align-items: center;
 }
