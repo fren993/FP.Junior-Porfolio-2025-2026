@@ -82,7 +82,10 @@ h3, h2, h4{
 
     width: fit-content;
 }
-
+.photo-gallery img{
+  width: 30%;
+  height:auto;
+}
 .bio-text{
   text-align: center;
   color: #f7ef8f;
