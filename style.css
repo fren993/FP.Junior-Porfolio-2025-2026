@@ -24,6 +24,7 @@ body {
 a{
   color:#f7ef8f;
   text-decoration: none;
+  
 }
 .Links-Index{
   margin:0;
@@ -73,14 +74,15 @@ h1{
 
     
 }
+
 h3, h2, h4{
   display: flex;
   text-align: center;
-  border-width: auto;
+  align-items: center;
+  justify-content: center;
   background-color: #af7f73;
   border-radius: 12px;
 
-    width: fit-content;
 }
 .photo-gallery img{
   width: 30%;
@@ -101,7 +103,6 @@ iframe{
 
 }
 
-
 extracurricular-list, h2{
   font-size: 50px;
   display: flex;
@@ -116,10 +117,13 @@ extracurricular-list, h3{
 
 }
 
-.text-projects p{
+.text-projects{
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  justify-content: center;
+  background-color: #af7f73;
+  border-radius: 12px;
 }
 
 
@@ -189,6 +193,13 @@ extracurricular-list, h3{
   padding: 10px 0px 10px 0px;
   margin: 12px;
 }
+.bio-text p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 /*
 .resources{
   display: block;

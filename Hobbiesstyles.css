@@ -1,0 +1,228 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+body {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  background-color: #f790b2;
+  color: #f7ef8f;
+  background-image: url("Illustration22.png");
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+
+  object-fit: fill;
+  font-family: "Mystery Quest", system-ui;
+  font-style: normal;
+
+}
+
+a{
+  color:#f7ef8f;
+  text-decoration: none;
+  
+}
+
+
+
+h1{
+  width: 100%;
+  height: auto;
+  color:#f7ef8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+  border-width: 10px;
+  background-color: #af7f73;
+  border-radius: 12px;
+
+    
+}
+
+h3, h2, h4{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #af7f73;
+  border-radius: 12px;
+
+}
+
+
+iframe{
+  width:100%;
+  height: 500px;
+
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  background-color: #f8b0c8;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.navbar-left img {
+  height: auto;
+  width: 90px;
+}
+
+.navbar-right{
+  
+  list-style: none;
+  display: flex;
+  gap: 3%;
+  margin: 0;
+  padding: 0;
+
+  width:100%;
+  height:auto;
+}
+
+.navbar-right a {
+  color: #785046;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.navbar-right a:hover {
+  color: #af738c;
+}
+
+.resource-card {
+  background-color: #af7f73;
+  margin: 2% auto;
+  padding: 3px;
+
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(222, 14, 14, 0.08);
+
+  width: fit-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resources{
+ background-image: url("Backgroundimage.jpg");
+ background-size:cover;
+
+ border-radius: 12px;
+
+  padding: 10px 0px 10px 0px;
+  margin: 12px;
+}
+.bio-text p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
