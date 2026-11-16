@@ -165,7 +165,6 @@ iframe{
 
 }
 
-
 /* =========================
    NAVBAR  #8fe1f7
   #f7e8f
@@ -179,6 +178,10 @@ iframe{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+    position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 .navbar-left img {
@@ -198,8 +201,11 @@ iframe{
 
 .navbar-right a {
   color: #f7ef8f;
+  
+  font-weight:bold;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .navbar-right a:hover {
