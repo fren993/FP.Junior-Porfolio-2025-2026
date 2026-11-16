@@ -128,50 +128,55 @@ extracurricular-list, h3{
 
 
 /* =========================
-   NAVBAR
+   NAVBAR  #8fe1f7
+  #f7e8f
+  #a29096
+  #567178
 ========================= */
 .navbar {
+
   background-color: #f8b0c8;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  overflow-x: auto;
+
+    position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 .navbar-left img {
-  height: auto;
-  width: 90px;
+  
+  height: 2%;
 }
 
-.navbar-right{
-  
+.navbar-right {
   list-style: none;
   display: flex;
-  gap: 3%;
+  gap: 2em;
   margin: 0;
   padding: 0;
 
-  width:100%;
-  height:auto;
+  font-size: 1.5em;
 }
 
 .navbar-right a {
-  color: #785046;
+  color: #f7ef8f;
+  
+  font-weight:bold;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 30px;
 }
 
-
 .navbar-right a:hover {
-  color: #af738c;
+  color: #733d26;
 }
 
 .resource-card {
   background-color: #af7f73;
-  margin: 2% auto;
+  margin: 2em auto;
   padding: 3px;
 
   border-radius: 12px;
